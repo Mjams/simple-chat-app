@@ -1,3 +1,16 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 @import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.chat-app {
+  @include display(flex);
+  @include flex-direction(row);
+  @include align-items(center);
+  @include justify-content(flex-start);
+}
