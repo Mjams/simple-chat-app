@@ -1,0 +1,9 @@
+@import 'colors';
+
+.online {
+  width: 400px;
+  background: $p-primary;
+  color: $white;
+  display: block;
+  padding: 32px 64px;
+}
