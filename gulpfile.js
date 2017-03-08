@@ -14,7 +14,7 @@ gulp.task('compile', () => {
 });
 
 gulp.task('clean', () =>
-  execSync(`rm -rf ${path.join(__dirname, 'public', 'css', 'style.min.css')}`));
+  execSync(`rm -rf "${path.join(__dirname, 'public', 'css', 'style.min.css')}"`));
 
 gulp.task('compress', [ 'compress:css', 'compress:js' ]);
 
